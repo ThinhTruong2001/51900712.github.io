@@ -162,7 +162,7 @@
         right: 0;
         border: 15px solid #EDC2D8FF;
         margin: 50px auto 0 auto;
-        box-shadow: inset 10px 0px 15px 0px #001;
+        box-shadow: 10px inset #EDC2D8FF;
         background-color: #8ABAD3FF;
         display: none;
     }
@@ -171,16 +171,17 @@
         width: 80%;
         height: 100%;
         top: 0;
+        bottom: 0;
         margin: auto;
         color: #EDC2D8FF;
     }
     
     .card p {
-        font-size: 20px;
+        font-size: 22px;
         line-height: 1.5;
         font-family: 'Lobster', cursive;
+        font-weight: bold;
         color: #EDC2D8FF;
-        font-style: italic;
         text-align: center;
         margin: auto;
     }
@@ -245,7 +246,9 @@
     }
     
     .btn-Center {
-        text-align: center
+        text-align: center;
+        left: 0;
+        right: 0;
     }
     
     .btn:hover,
@@ -305,7 +308,7 @@
     
     .flip-card-back {
         background-color: #EDC2D8FF;
-        color: #8ABAD3FF;
+        color: rgb(98, 156, 201);
         transform: rotateY(180deg);
     }
     

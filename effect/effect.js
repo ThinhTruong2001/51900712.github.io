@@ -32,7 +32,7 @@ $('document').ready(function() {
         setTimeout(function() {
             song.pause();
             $('.Banner').addClass('bannerAnimation');
-            $('.balloons').fadeIn('slow').delay(500);
+            $('.balloons').fadeIn('slow').delay(1500);
             randomPosition('balloon1');
             randomPosition('balloon2');
             randomPosition('balloon3');
